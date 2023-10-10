@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    /* border: 1px solid red; */
+  }
+
+  @font-face {
+    font-family: 'Supreme-Variable';
+    src: url('./fonts/Supreme-Variable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
