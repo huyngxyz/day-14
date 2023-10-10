@@ -33,7 +33,7 @@ export default function App() {
   return (
     <main className="h-screen flex justify-center items-center px-5">
       <div className="grid grid-cols-6 border-t-2 border-black w-full">
-        <div className="col-span-2 py-3 font-semibold text-6xl tracking-tighter">Our works</div>
+        <div className="col-span-2 py-3 text-7xl tracking-tighter">Our works</div>
         <div className="flex flex-col col-span-4">
           {projects.map((project, index) => {
             return (
